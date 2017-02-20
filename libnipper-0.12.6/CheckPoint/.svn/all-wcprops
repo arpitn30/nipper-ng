@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/general.h
+END
+device-policies.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/device-policies.cpp
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/device.h
+END
+filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/filter.cpp
+END
+filter-services.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/filter-services.cpp
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/filter.h
+END
+filter-objects.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/filter-objects.cpp
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/general.cpp
+END
+filter-rules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/filter-rules.cpp
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/CheckPoint/device.cpp
+END

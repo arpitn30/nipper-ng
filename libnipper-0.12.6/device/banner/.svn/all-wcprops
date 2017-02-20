@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/banner
+END
+banner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/banner/banner.cpp
+END
+banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/banner/banner.h
+END
+banner-report.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/banner/banner-report.cpp
+END

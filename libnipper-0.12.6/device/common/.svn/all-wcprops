@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common
+END
+deviceconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/deviceconfig.h
+END
+tables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/tables.cpp
+END
+misc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/misc.cpp
+END
+configline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/configline.cpp
+END
+file.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/file.cpp
+END
+configline.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/configline.h
+END
+passwords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/passwords.cpp
+END
+deviceconfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/deviceconfig.cpp
+END
+paragraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/common/paragraph.cpp
+END

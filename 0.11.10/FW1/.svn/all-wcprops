@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/3/trunk/0.11.10/FW1
+END
+process-services.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/0.11.10/FW1/process-services.c
+END
+input.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/3/trunk/0.11.10/FW1/input.c
+END
+report-debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/0.11.10/FW1/report-debug.c
+END
+process-rulebases.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/0.11.10/FW1/process-rulebases.c
+END
+report-objects.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/0.11.10/FW1/report-objects.c
+END
+report-rules.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/0.11.10/FW1/report-rules.c
+END
+process-objects.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/0.11.10/FW1/process-objects.c
+END
+process-rules.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/0.11.10/FW1/process-rules.c
+END
+cleanup.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/0.11.10/FW1/cleanup.c
+END
+process-policycollections.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/0.11.10/FW1/process-policycollections.c
+END
+report.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/3/trunk/0.11.10/FW1/report.c
+END
+report-services.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/0.11.10/FW1/report-services.c
+END

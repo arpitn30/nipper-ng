@@ -1,0 +1,5 @@
+/usr/lib/libnipper.so
+/etc/nipper.conf
+/usr/include/libnipper/libnipper.h
+/usr/include/libnipper/config.h
+/usr/share/man/man5/nipper.conf.5

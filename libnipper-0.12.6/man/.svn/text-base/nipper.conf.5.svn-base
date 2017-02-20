@@ -1,0 +1,15 @@
+.TH nipper.conf "12" "January 2008"
+.SH NAME
+nipper.conf \- Configuration file for Nipper.
+.SH DESCRIPTION
+Nipper can be configured in three different ways. The first is through the command line options, this will override the other two configuration methods. The second is through an external configuration file. Lastly, Nipper will fall back on its built-in default configuration settings. The main nipper.conf file is usually located at /etc/nipper.conf, though an alternative configuration file can be specified as a command line parameter.
+.P
+The configuration settings are commented within the nipper.conf file. The options are case-insensitiveand any options that require a yes/no type answer can also be answered with true/false or on/off. Comment lines start with a # character.
+.SH AUTHOR
+Nipper was developed by Ian Ventura-Whiting (Fizz).
+.SH COPYRIGHT
+Copyright \(co 2006-2008 Ian Ventura-Whiting.
+.br
+The nipper license can be viewed on the project web site http://nipper.titania.co.uk
+.SH SEE ALSO
+nipper(1)

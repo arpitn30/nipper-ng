@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/interfaces
+END
+interfaces-report.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/interfaces/interfaces-report.cpp
+END
+interfaces-interface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/interfaces/interfaces-interface.cpp
+END
+interfaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/interfaces/interfaces.cpp
+END
+interfaces-security.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/interfaces/interfaces-security.cpp
+END
+interfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/interfaces/interfaces.h
+END

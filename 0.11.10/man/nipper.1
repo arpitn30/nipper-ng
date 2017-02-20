@@ -1,0 +1,53 @@
+.TH nipper "1" "January 2008"
+.SH NAME
+nipper \- Network Infrastructure Parser. Produces reports based of network device configuration file settings.
+.SH SYNOPSIS
+.B nipper
+[\fIOPTIONS\fR]
+.SH DESCRIPTION
+Nipper processes network infrastructure device configuration files, performs a security audit and produces a report based on the findings. The default report will contain sections on the security related issues identified, the configuration of the device and an appendicies with additional information. Nipper currently supports the following device types:
+.P
+* Cisco Switches (IOS)                  * Juniper NetScreen Firewall
+.br
+* Cisco Routers (IOS)                   * CheckPointer Firewall-1
+.br
+* Cisco Catalyst (IOS)                  * Nortel Passport
+.br
+* Cisco Firewall (PIX)                  * Sonicwall Firewall
+.br
+* Cisco Firewall (ASA)
+.br
+* Cisco Firewall (FWSM)
+.br
+* Cisco Catalyst (CatOS)
+.br
+* Cisco Catalyst (NMP)
+.br
+* Cisco Content Service Switches
+.SH OPTIONS
+\fB\-\-help\fR
+For help on all the options.
+.SH EXAMPLES
+To produce an HTML formatted report for a Juniper NetScreen device:
+.P
+nipper --screenos --input=config.txt --output=report.html
+.P
+To produce an XML formatted report for a Cisco PIX firewall:
+.P
+nipper --pix --xml --input=pix-config.txt --output=report.xml
+.P
+To produce an HTML formatted report for a CheckPoint Firewall-1:
+.P
+nipper --fw1 --input=/root/config-backups/fw1/conf/ --output=report.html
+.P
+To produce an HTML formatted report for a Cisco IOS-based router using an external configuration file:
+.P
+nipper --config=nipper.conf --input=router.txt --output=report.html
+.SH AUTHOR
+Nipper was developed by Ian Ventura-Whiting (Fizz).
+.SH COPYRIGHT
+Copyright \(co 2006-2008 Ian Ventura-Whiting.
+.br
+This is free software.  You may redistribute copies of it under the terms of the GNU General Public License v3 or above <http://www.gnu.org/licenses/gpl.html>. There is NO WARRANTY, to the extent permitted by law.
+.SH SEE ALSO
+nipper.conf(5)

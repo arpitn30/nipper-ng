@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/3/trunk/0.11.10/common
+END
+report-text.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/0.11.10/common/report-text.c
+END
+report-debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/0.11.10/common/report-debug.c
+END
+nipper-config.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-config.c
+END
+nipper-remote-snmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-remote-snmp.c
+END
+nipper-defaults.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-defaults.c
+END
+report-acl.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/0.11.10/common/report-acl.c
+END
+nipper-cmdoptions.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-cmdoptions.c
+END
+nipper-namemappings.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-namemappings.c
+END
+report.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3/trunk/0.11.10/common/report.c
+END
+nipper-defs.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-defs.c
+END
+nipper-base64.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-base64.c
+END
+nipper-struct.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-struct.c
+END
+report-vulns.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/0.11.10/common/report-vulns.c
+END
+report-functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/0.11.10/common/report-functions.c
+END
+report-appendix.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/0.11.10/common/report-appendix.c
+END
+nipper-cleanup.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-cleanup.c
+END
+nipper-common.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-common.c
+END
+nipper-help.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-help.c
+END
+nipper-objects.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-objects.c
+END
+nipper-acl.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-acl.c
+END
+nipper-input.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/0.11.10/common/nipper-input.c
+END

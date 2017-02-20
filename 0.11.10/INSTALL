@@ -1,0 +1,54 @@
+        _                           ____
+  _ __ (_)_ __  _ __   ___ _ __    / ->/|
+ | '_ \| | '_ \| '_ \ / _ \ '__|  /<-_/ |
+ | | | | | |_) | |_) |  __/ |     |   | /
+ |_| |_|_| .__/| .__/ \___|_|     |___|/
+         |_|   |_|
+
+    The Network Infrastructure Parser
+
+Nipper does not have to be compiled under the Windows platform
+as a pre-built version is available for download.
+
+The nipper configuration file, nipper.conf is stored in /etc
+on UNIX systems. Under Windows Nipper will look for a file
+called nipper.ini in the current directory.
+
+Nipper can be compiled and installed using a number of
+different methods. Select one of the following:
+
+
+1) install.script (UNIX)
+
+   This method applies to UNIX platforms only. The shell script
+   will compile the source code and then copy the built program
+   to the /usr/bin directory.
+
+   To compile and install Cisco Parse enter the following
+   command as root:
+
+      ./install.script
+
+
+2) Makefile (UNIX and Mac)
+
+   The CMake program is required for this method. CMake can be
+   found at http://www.cmake.org.
+
+   To compile and install using CMake use the following
+   commands:
+
+      make
+      make install    (root user privileges)
+
+
+3) Manual (All platforms)
+
+   Nipper can be compiled and installed manually using the
+   following commands:
+
+      gcc -o nipper nipper.c
+      cp nipper /usr/bin/
+      cp nipper.conf /etc/
+      cp man/nipper.1 /usr/share/man/man1/
+      cp man/nipper.conf.5 /usr/share/man/man5/

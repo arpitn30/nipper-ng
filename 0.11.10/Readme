@@ -1,0 +1,78 @@
+        _                           ____
+  _ __ (_)_ __  _ __   ___ _ __    / ->/|
+ | '_ \| | '_ \| '_ \ / _ \ '__|  /<-_/ |
+ | | | | | |_) | |_) |  __/ |     |   | /
+ |_| |_|_| .__/| .__/ \___|_|     |___|/
+         |_|   |_|
+
+    The Network Infrastructure Parser
+
+
+nipper is a Network Infrastructure Configuration Parser. nipper takes
+a network infrastructure device configuration, processes the file and
+details security-related issues with the configuration together with
+detailed recommendations. nipper was previous known as CiscoParse.
+
+nipper currently supports:
+
+   Cisco Switches (IOS)
+   Cisco Routers (IOS)
+   Cisco Firewalls (PIX, ASA, FWSM)
+   Cisco Catalysts (NMP, CatOS, IOS)
+   Cisco Content Service Switches (CSS)
+   Juniper NetScreen Firewalls (ScreenOS)
+   CheckPoint Firewall-1 (FW1)
+   Nortel Passport Devices
+   SonicWALL SonicOS Firewalls
+
+Output from nipper is in HTML, Latex, XML and Text. Additionally, nipper
+will reverse any Cisco type-7 passwords, any other encrypted passwords
+can be output to a John-the-Ripper file for further testing.
+By default, input is retrieved from stdin and is output (in HTML format)
+to stdout.
+
+The following documentation is supplied with nipper:
+
+   LICENSE        - Program license
+   README         - This file
+   INSTALL        - Installation guide
+   TODO           - The never ending todo list
+   Quickstart.txt - A quickstart guide
+   Features.txt   - Description of nippers main features
+   Options.txt    - The command line options, as per help.
+   XML.txt        - A guide to nippers XML output
+
+nipper updates and downloads, including example configs can be found at:
+
+http://nipper.titania.co.uk
+
+
+Donations
+=========
+
+Please support nipper with donations. nipper is an open source project that
+audits expensive devices. All donations will be used to aquire devices in
+order to enable better support in the future. Equipment donations are welcome,
+please contact me at:
+
+  fizz@titania.co.uk
+
+
+ ***************************************************************************
+ *   nipper - The network infrastructure parser                            *
+ *   Copyright (C) 2006 - 2008 by Ian Ventura-Whiting (Fizz)               *
+ *   fizz@titania.co.uk                                                    *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 3 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program. If not, see <http://www.gnu.org/licenses/>.  *
+ ***************************************************************************

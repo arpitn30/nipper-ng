@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-PIX
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-PIX/device.cpp
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-PIX/device.h
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-PIX/administration.cpp
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-PIX/administration.h
+END

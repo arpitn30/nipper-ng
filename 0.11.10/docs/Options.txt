@@ -1,0 +1,289 @@
+                   _                           ____
+             _ __ (_)_ __  _ __   ___ _ __    / ->/|
+            | '_ \| | '_ \| '_ \ / _ \ '__|  /<-_/ |
+            | | | | | |_) | |_) |  __/ |     |   | /
+            |_| |_|_| .__/| .__/ \___|_|     |___|/
+                    |_|   |_|
+
+                        Version 0.11.4
+                by Ian Ventura-Whiting (Fizz)
+
+
+Nipper is a  Network Infrastructure  Configuration Parser.  Nipper takes
+a network infrastructure  device configuration,  processes the  file and
+details security-related  issues with detailed  recommendations.  Nipper
+was previous known as CiscoParse.
+
+By default, input is retrieved from stdin and is output (in HTML format)
+to stdout.
+
+Command:
+    nipper [Options]
+
+General Options:
+    --input=<file>
+    Specifies a  device configuration  file to  process.  For CheckPoint
+    Firewall-1 configurations, the input should be the conf directory.
+
+    --output=<file> | --report=<file>
+    Specified an output file for the report.
+
+    --version
+    Displays the program version.
+
+Example:
+    The  example   below  will   process  a   Cisco   IOS-based   router
+    configuration file called ios.conf  and output  the report to a file
+    called report.html.
+
+    nipper --ios-router --input=ios.conf --output=report.html
+
+Nipper supports  a  number of  different types  of network device.  This
+version contains support for the following devices:
+
+    CMD Option      Device Type
+    =================================================
+    --ios-switch    Cisco IOS-based Switch
+    --ios-router    Cisco IOS-based Router (default)
+    --ios-catalyst  Cisco IOS-based Catalyst
+    --pix           Cisco PIX-based Firewall
+    --asa           Cisco ASA-based Firewall
+    --fwsm          Cisco FWSM-based Router
+    --catos         Cisco CatOS-based Catalyst
+    --nmp           Cisco NMP-based Catalyst
+    --css           Cisco Content Services Switch
+    --screenos      Juniper NetScreen Firewall
+    --passport      Nortel Passport Device
+    --sonicos       SonicWall SonicOS Firewall
+    --fw1           CheckPoint Firewall-1 Firewall
+
+Please note that the level of support for each type of device varies.
+
+Nipper performs  various  checks to  ensure that  the device  type that
+has been  specified matches the  configuration file.  Additionally, the
+security issues  reported by Nipper  can depend  on what  the device is
+used for.
+
+Advanced Device Options:
+
+    --force
+    Force Nipper to bypass any configuration type checks.
+
+    --location=<edge | internal>
+    Where is the device located.
+
+    --model=<device model>
+    Specify a device model, such as 7200VXR for a Cisco 7200VXR.
+
+Nipper supports a number of different report formats. They are:
+
+    CMD Option      Report Format
+    =============================
+    --html          HTML (default)
+    --latex         Latex
+    --text          Text
+    --xml           XML
+
+These reporting options apply to all report output.
+
+    --company-name=<name>
+    Replace the 'nipper recommends...' in the report output to something
+    else. So for the Acme company, it would read, 'Acme recommends...'.
+
+    --device-name=<name>
+    If a device configuration  file does not  contain a device name,  it
+    can be specified using this option.
+
+    --no-names
+    Convert host and network names to IP addresses where possible.
+
+    --expand-acl
+    Expand an Access Control Lists / Filtering  object definitions. This
+    option will show the reality of a filtering policy.
+
+The following  report options  determine which sections  are included in
+the report output. The default is to include all sections.
+
+    --no-audit
+    This option disables the security audit of the device configuration.
+
+    --no-appendix
+    Disables  the output  of  the entire  report  appendix  section.  By
+    default an appendix section is generated and added to the report.
+
+    --no-abbreviations
+    Disables the output of an abbreviations section in the appendix.
+
+    --no-logging
+    Disables the output of the logging levels section in the appendix.
+
+    --no-timezones
+    Disables the output of the time zones section in the appendix.
+
+    --no-ports
+    Disables the output of a common ports section in the appendix.
+
+    --no-version
+    Disables the output of the nipper version section in the appendix.
+
+These report options apply only to the HTML report file format.
+
+    --stylesheet=<file>
+    Supply an external Cascading Style Sheet (CSS) for use with the HTML
+    -based reports.  If this  option is not  supplied a  default  CSS is
+    embeded. The  supplied CSS  file will be  embeded within  the report
+    output.
+
+These report options apply only to the Latex report file format.
+
+    --paper=<Latex paper size>
+    This option can be used to configure the Latex document  paper size.
+    The   default  paper   size  is  'a4paper'.   Refer  to   the  Latex
+    documentation for other settings.
+
+    --documentclass=<Latex document class>
+    This option can be used to configure  the Latex document  class. The
+    default  document  class   is   'article'.   Refer   to   the  Latex
+    documentation for other settings.
+
+These  options  only apply  to the  security  auditing  of  the  network
+filtering.  Checks for logging on all rules   and for any source service
+are disabled by default, all other rules are enabled by default.
+
+    --deny-log | --no-deny-log
+    Enable/Disable checks to ensure that  the rule lists end with a deny
+    all and log.
+
+    --any-source | --no-any-source
+    Enable/Disable rule checks for any source.
+
+    --network-source | --no-network-source
+    Enable/Disable rule checks for network sources.
+
+    --source-service | --no-source-service
+    Enable/Disable checks for any sources services.
+
+    --any-destination | --no-any-destination
+    Enable/Disable rule checks for any destination.
+
+    --network-destination | --no-network-destination
+    Enable/Disable rule checks for network destionations.
+
+    --destination-service | --no-destination-service
+    Enable/Disable rule checks for any destination service.
+
+    --log-rules | --no-log-rules
+    Enable/Disable checks for logging on all rules.
+
+    --disabled-rules | --no-disabled-rules
+    Enable/Disable checks for disabled rules.
+
+    --reject-rules | --no-reject-rules
+    Enable/Disable checks for reject rules.
+
+    --bypass-rules | --no-bypass-rules
+    Enable/Disable checks for bypass rules.
+
+    --default-rules | --no-default-rules
+    Enable/Disable checks for default rules.
+
+    --log-deny-rules | --no-log-deny-rules
+    Enable/Disable checks for deny and log rules.
+
+These options  apply to the  password security auditing.  In addition to
+user passwords,  other authentication strings are audited such as shared
+keys and SNMP community strings.
+
+    --no-passwords
+    Removes passwords  from the  output. However,  passwords are  always
+    checked against defaults and for password strength.
+
+    --john=<file>
+    Output the Cisco type 5  passwords in a  file that  can then  be run
+    through john-the-ripper.
+
+    --dictionary=<file>
+    Use a dictionary  file to  check the  passwords  and  keys  are  not
+    dictionary-based  words.  If this  option is  not specified  a small
+    number of  built-in  passwords  are  used  instead.  This option  is
+    not used  to break  MD5 passwords,  only compare  passwords  already
+    known.
+
+    --pass-length=<length>
+    Password strength  checks will check  that retrieved  passwords have
+    a minimum length as specified. The default is 8 characters.
+
+    --pass-uppers=<yes|no>
+    Password strength  checks will check  that retrieved  passwords must
+    include uppercase characters. The default is no.
+
+    --pass-lowers=<yes|no>
+    Password strength  checks will check  that retrieved  passwords must
+    include lowercase characters. The default is no.
+
+    --pass-either=<yes|no>
+    Password strength  checks will check  that retrieved  passwords must
+    include upper or lowercase characters. The default is yes.
+
+    --pass-numbers=<yes|no>
+    Password strength  checks will check  that retrieved  passwords must
+    include numbers. The default is yes.
+
+    --pass-specials=<yes|no>
+    Password strength  checks will check  that retrieved  passwords must
+    include special characters. The default is no.
+
+These options apply to the security auditing.
+
+    --timeout=<seconds>
+    Specify the  number of  seconds that  connection timeouts  should be
+    less than or equal to.  If timeouts are  less than this,  a security
+    will be generated in the report. The default is 10 minutes.
+
+These  options apply  to remote  SNMP configuration retrival from  Cisco
+devices.  Older Cisco devices make  use of a  slightly different method.
+The old method works with IOS devices up to version 12.x.  Newer methods
+are supported with IOS version 12.0  (some with 11.2P).  This requires a
+local TFTP server and the snmpget command.
+
+    --cisco-ip=<ip address>
+    Specify the  IP address  of the Cisco Device  to retrieve the config
+    from.
+
+    --local-ip=<ip address>
+    The IP address of the host making the request. This is essential for
+    remote config retrival, else it will fail.
+
+    --cisco=<old | new>
+    There are two methods of retrieving  the config remotely using SNMP.
+    The old  method is  supported on  Cisco devices  upto  IOS 12.x, the
+    new method  (default) is  supported from  IOS 12.0  (11.2P  on  some
+    devices).
+
+    --snmp=<community>
+    The snmp community to be used with the above. A default of 'private'
+    will be used if not specified.
+
+    --tftproot=<directory>
+    The tftp root directory to be used for the Cisco config transfer. If
+    not specified a default of /tftproot/ will be used.
+
+    --cisco-file=<filename>
+    Specifies a  filename for the Cisco config file to  be saved  to. If
+    not specified,  then the  file will be  left in  the  tftproot  as a
+    random file name.
+
+Nipper can be configured using an external configuration file. This file
+can be specified on the  command line or  Nipper will load configuration
+settings from '/etc/nipper.conf' (UNIX) or 'nipper.ini' in the current
+directory (Windows).
+
+    --config=<file>
+    Specifies a Nipper configuration file.
+
+For additional help:
+    --help[=<topic>]
+    Show  the  online help  or show  the  additional  help on  the topic
+    specified.  The help  topics  are;  GENERAL,  DEVICES,  DEVICES-ADV,
+    SNMP,  REPORT, REPORT-ADV,  REPORT-SECT, REPORT-HTML,  REPORT-LATEX,
+    AUDIT-ACL, AUDIT-PASS, AUDIT-ADV or CONFIG-FILE.

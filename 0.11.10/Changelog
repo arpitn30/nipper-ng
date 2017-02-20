@@ -1,0 +1,1167 @@
+Changelog
+=========
+
+Version: 0.11.10
+Date   : 15/08/2008
+Author : Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Minor tweak to Passport filter processing.
+            > Fixed a processing issue with Passport source
+              port options.
+            > Fixed XML issue with a particular OSPF issue
+              reporting without a closing </text> tag.
+            > Fixed default IOS Telnet service issue.
+
+Version: 0.11.9
+Date   : 23/07/2008
+Author : Ian Ventura-Whiting
+Thanks : Erwin Paternotte
+         ADR & Monstro
+         MooMaunder
+Changes: The following changes have been made to this
+         version:
+            > Cisco PIX/ASA/FWSM uRPF Fix (Ref. 14)
+            > Cisco IOS/PIX/ASA/FWSM Version Bug Fix
+            > Fixed file buffering issue on Windows.
+
+Version: 0.11.8
+Date   : 08/06/2008
+Author : Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Misc minor internal updates.
+            > Stripped quotes from CSS SNMP entries.
+            > Improved hostname collection for CSS devices.
+            > Improved CheckPoint file identification.
+            > Improved the date output. It also fixes an issue
+              with the Windows version not printing a day.
+            > Updated Nipper URL from the Source Forge one
+              in the report output.
+
+Version: 0.11.7
+Date   : 10/05/2008
+Author : Ian Ventura-Whiting
+Thanks : MrK
+Changes: The following changes have been made to this
+         version:
+            > Fixed issue with Domain Lookups.
+            > Updated the SNMP text again.
+            > CSV output of network filter rules.
+            > Added FW-1 comments.
+            > Added command option for Nokia IP firewall
+              devices.
+            > Added command option for Bay Networks
+              Accelar devices.
+
+Version: 0.11.6
+Date   : 07/04/2008
+Author : Ian Ventura-Whiting
+Thanks : MrK
+Changes: The following changes have been made to this
+         version:
+            > Made the SNMP text more concise.
+            > Fixed alternative IOS domain name line.
+            > Fixed ICMP message in ACL line issue.
+            > Changed MOP default for VLAN interfaces.
+            > Fixed MOP setting for subinterfaces.
+            > Updated subinterface output in configuration
+              report for IOS devices.
+            > Fixed IOS banner line
+
+Version: 0.11.5
+Date   : 28/02/2008
+Author : Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Fixed issue with processing PIX/ASA/FWSM
+              usernames.
+            > Fixed issue with SNMP PIX observation
+              report text.
+            > Fixed PQR issue with IOS Interface table.
+            > Fixed PQR issue with the password strength
+              text.
+            > Fixed issue with SNMP users with no group.
+              (Ref. 1896844)
+            > Fixed long abbreviation text report issue.
+            > Fixed issue with IOS no auth users report
+              output.
+            > Added table for users that are not in a
+              group for IOS report output.
+            > Fixed EIGRP MD5 authentication issue with
+              IOS devices. (Ref. 1897734)
+
+Version: 0.11.4
+Date   : 18/02/2008
+Author : Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Added a missing line to the default
+              configuration files.
+            > Fixed missing XML table item for table
+              entries that span an entire row.
+            > Fixed ScreenOS segmentation fault when
+              reporting a single RADIUS password issue.
+            > ScreenOS passwords are now included in
+              the johntheripper output, rather than
+              treating them as text. This also fixes
+              another issue with complex encryption
+              strings being marked as weak.
+            > Updated the Nipper license to bring it
+              into line with the development license.
+
+Version: 0.11.3
+Date   : 27/01/2008
+Author : Ian Ventura-Whiting
+Note   : The improvements made to SonicOS & Firewall1
+         support constitute feature additions. Not
+         something that would normally be in a
+         maintenance release.
+Changes: The following changes have been made to this
+         version:
+            > Improved SonicOS service processing.
+            > Improved SonicOS policy processing.
+            > Optimisations to base64 routine.
+            > General SonicOS optimisations.
+            > Imrpoved Cisco PIX SSH remote access
+              host processing.
+            > Added Cisco PIX SSH remote access hosts
+              issue.
+            > Added support for Firewall-1 rules.C
+              files from the database directory.
+            > Modified the Nipper Appendix section URL.
+            > Fixed bug with Dynamic Objects report
+              table output for Firewall-1 devices.
+            > Improved Firewall-1 service object
+              processing.
+            > Fixed a PQR issue with the software
+              version issue.
+            > Fixed an issue with FW1 policies that
+              are logged on some configs (Ref.
+              1879064).
+            > Windows version now loads nipper.ini
+              from the current directory.
+
+Version: 0.11.2
+Date   : 12/01/2008
+Author : Ian Ventura-Whiting
+Notes  : Don't shoot, this maintenance release has a
+         new non-disruptive feature.
+Changes: The following changes have been made to this
+         version:
+            > Added configuration only report option.
+            > Added HTML id to report header div.
+            > Modified CheckPoint internal text
+              (Ref. 1863387)
+            > Modified default management settings for
+              ScreenOS Interfaces that are in the "Trust"
+              or "Management" zones. (Ref. 1868791)
+            > Fixed CEF default for IOS devices. However,
+              the model needs to be specified at the
+              command line. It is enabled by default for
+              specific devices and disabled for all others.
+              An improvement, but not perfect.
+              (Ref. 1869191)
+            > Updated the documentation for 0.11.x
+              series, including the developer docs.
+            > Improved the command line processing for
+              device types (and config file line).
+            > Added --model= command option and config
+              file line.
+            > Fixed SNMP help option.
+            > Fixed issue introduced in the last
+              minor release with a single PIX SNMP
+              password issue.
+            > Updated man page.
+
+Version: 0.11.1
+Date   : 02/01/2008
+Author : Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Fixed online help for ACL and Password
+              auditing. (ref. 1862039)
+            > Memory leaks fixed with the help of
+              valgrind. Great tool!
+            > Added support for standard Windows help
+              switch.
+
+Version: 0.11.0
+Date   : 30/12/2007
+Author : Ian Ventura-Whiting
+Notes  : This is a feature release of Nipper and includes
+         a number of new features. This release also
+         extends the number of supported devices.
+Warning: The subversion repository contains testdata. I
+         would very strong advise against using those
+         configurations on any devices. They are intended
+         for testing purposes only. Use those configs at
+         your own risk.
+Changes: The following nipper features have been added or
+         improved with this release. A * represents new
+         features.
+
+         General Program Features:
+            > Added support for an external configuration
+              files. *
+            > Modified input code to enable support for
+              multiple file configurations. *
+            > Added support for Nortel Passport devices. *
+            > Added support for Checkpoint Firewall-1
+              devices. *
+            > Added support for SonicWall Firewalls. *
+            > Added option to force a config type. *
+            > Added conclusions section to security audit. *
+            > Added a stdin timeout to stop some users from
+              staring at a blank console. *
+            > Added filter/policy/acl object HTML report
+              to the object definitions. *
+            > Added man pages for nipper and nipper.conf *
+            > Added Makefile. *
+            > Removed CMake file.
+            > Improved on-line help system.
+            > Improved Nipper error reporting and feedback.
+            > Improved command processing.
+            > Improved program return codes.
+            > Expanded the built-in mini dictionary.
+            > Improved firewall rule auditing.
+            > Improved built-in HTML CSS.
+            > Moved main introduction to after the table of
+              contents.
+            > Improved contents page.
+            > Improved report introduction.
+            > Improved report command text output.
+            > Improved ScreenOS config processing.
+            > Improved HTML report opening.
+            > Feature 1839093 - More info on ACL audit
+              lines. *
+
+         Cisco Security Device (PIX/ASA/FWSM) Security Audit:
+            > Dictionary-based Passwords *
+            > Weak Passwords *
+            > Vulnerabilities *
+            > uRPF *
+            > SNMP *
+            > Flood Guard *
+            > ACL
+
+         Cisco Security Device (PIX/ASA/FWSM) Configuration Reports:
+            > Static PAT *
+            > Static NAT
+            > SNMP *
+            > Interfaces
+            > HTTPS *
+            > Flood Guard *
+            > Name Mappings
+            > Objects
+            > ICMP
+            > ACL
+
+         Cisco IOS-based Device Configuration Reports:
+            > ACL
+            > Interfaces
+
+         Cisco IOS-based Device Security Audit:
+            > ACL
+
+         Cisco CSS-based Device Configuration Reports:
+            > ACL
+
+         Cisco CSS-based Device Security Audit:
+            > ACL
+
+         ScreenOS-based Device Security Audit:
+            > Dictionary-based Passwords *
+            > Weak Passwords *
+            > SNMP v1/2 *
+            > SSH Protocol Version 1 *
+            > Policy Lists
+
+         ScreenOS-based Device Configuration Reports:
+            > SNMP Configuration *
+            > Zones *
+            > Administrative Settings
+            > Policy Lists
+            > Name Mappings
+            > Name Mapping Groups *
+            > Default Policy *
+
+         Firewall-1-based Device Security Audit:
+            > Policy Collections *
+
+         Firewall-1-based Device Configuration Reports:
+            > Object Definitions *
+            > Service Definitions *
+            > Policy Collections *
+
+         Passport-based Device Security Audit:
+            > Filters *
+
+         Passport-based Device Configuration Reports:
+            > Software Version *
+            > Monitor Version *
+            > Passport Device configuration Type *
+            > Hostname * (guessed)
+            > Filters *
+            > Filter Sets (incl. Global Sets) *
+
+         SonicOS-based Device Configuration Reports:
+            > Access Rules *
+
+         SonicOS-based Device Configuration Reports:
+            > Device Name *
+            > Serial No. *
+            > IP Address and Network Mask *
+            > Access Rules *
+            > Service Definitions *
+
+
+-------------------------------------------------------
+
+
+Version: 0.10.10
+Date   : 08/12/2007
+Authors: Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Fixed ScreenOS permit list with some configs.
+            > Fixed IOS interface issue with some configs.
+            > Removed IOS ACL Remarks, this is fixed in the
+              next feature release (version 0.11.0).
+
+Version: 0.10.9
+Date   : 29/11/2007
+Authors: Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Fixed a typo in the help text.
+            > Disabled PIX remarks, they still dont work
+              properly and they are working in the new
+              feature version (0.11.0).
+            > Made corrections to the ScreenOS text.
+            > Fixed XML output error with ScreenOS.
+            > Fixed a bug with NMP report output.
+
+Version: 0.10.8
+Date   : 23/10/2007
+Authors: Ian Ventura-Whiting
+Thanks : Bambam
+         Kartick Suriamoorthy
+Changes: The following changes have been made to this
+         version:
+            > Fixed a bug with the CatOS report output
+              with the Windows version of nipper.
+            > Fixed a bug with the IOS minimum password
+              length issue.
+            > Fixed a PQR issue with the IOS report text.
+
+Version: 0.10.7
+Date   : 12/10/2007
+Authors: Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Improved list item output.
+            > Fixed PIX XML Object Group report output
+              issue.
+            > Fixed PIX XML Timeout report output issue.
+            > Fixed item list Text format output.
+
+Version: 0.10.6
+Date   : 01/10/2007
+Authors: Ian Ventura-Whiting
+Changes: The following changes have been made to this
+         version:
+            > Fixed a specific bug with processing PIX
+              ACL under specific configurations.
+            > Fixed SSH version issue, for PIX/ASA devices
+              with a software version < 7.0(1).
+            > Fixed an internal counter issue that effects
+              some report output paragraphs.
+            > Fixed PIX Interface processing issue.
+
+Version: 0.10.5
+Date   : 29/08/2007
+Authors: Ian Ventura-Whiting
+         David Croft
+Thanks : To the community for all the feedback.
+Changes: The following changes have been made to this
+         version:
+            > Fixed IOS std ACL log detection
+              (Ref: 1782218)
+            > Fixed IOS OSPF/BGP var mixup
+              (Ref: 1782202)
+            > Fixed IOS MOP Interface enabled type
+              (Ref: 1782222)
+            > Fixed IOS CDP and MOP for specific
+              interface types (Ref: 1782226)
+            > Fixed Trunks and Port Security on VLANs
+              (Ref: 1782236)
+            > Added remark output for ALL ACL types
+              for PIX devices in the configuration
+              report. (Feature Ref: 1777716)
+            > Various initialisation improvements.
+            > Added SNMP disable on Win32 platform.
+              Hope to introduce it properly with the
+              next feature release.
+            > Adjusted console colours for Win32.
+
+Version: 0.10.4
+Date   : 19/08/2007
+Author : Ian Ventura-Whiting (Fizz)
+Thanks : David Croft for the bug reports and code.
+Changes: The following changes have been made to this
+         version:
+            > Fixed service pad (Ref: 1775043)
+            > Fixed OSPF / BGP (Ref: 1775033)
+
+Version: 0.10.3
+Date   : 06/08/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following changes have been made to this
+         version:
+            > Added XML <cmdoptions>.
+            > Improved help text.
+            > Added URL to banner.
+
+Version: 0.10.2
+Date   : 11/07/2007
+Author : Ian Ventura-Whiting (Fizz)
+Changes: The following changes have been made to this
+         version:
+            > Fixed seg fault when processing lines with
+              lots of words.
+
+Version: 0.10.1
+Date   : 03/07/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Although this is a maintenance release there is a
+         major change, but with regards to the license.
+         nipper has now been re-licensed using the GPL v3
+         license.
+Changes: The following features have been improved or bugs
+         fixed since the previous release.
+            > Improved output to add N/A to interface
+              features when the port is a switchport and
+              doesn't have an IP address. (Ref. 1740541)
+            > Improve support for BGP to include passive
+              interface configuration.
+            > Minor changes to resolve all the compiler
+              warning messages.
+            > License changes to all files.
+            > Improved report to add Nipper version details
+              to the report output. (Ref. 1746197) 
+            > Altered Calalyst IOS software version issue
+              due to IOS version 12.2. being the latest
+              version on that platform. (Ref. 1746200)
+            > Minor report PQR updates.
+            > Improved OSPF support to include passive
+              interface configurations. Also identified an
+              OSPF issue reporting problem and resolved at
+              the same time. (Ref. 1740539)
+Thanks : Mike Auty (for PQR changes)
+         All users for feedback.
+
+
+Version: 0.10.0
+Date   : 17/06/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : This release concentrates on adding a large number
+         of additional features for IOS-based devices. IOS
+         devices contain far more configuration options than
+         all the other devices combined. Additionally, Cisco
+         CSS devices have been added as another supported
+         device type. Other device types will have support
+         extended in upcoming versions.
+Warning: The subversion repository now contains testdata.
+         I would very strong advise against using those
+         configurations on any devices, they are intended
+         for testing purposes only. Use those configs at
+         your own risk.
+Changes: The following nipper features have been added or
+         improved with this release. A * represents new
+         features.
+
+         General Program Features:
+            > Additional appendix section addition or
+              removal options.
+            > Filter Source Checking *
+            > Filter Deny and Log Checking *
+            > Seperation of Switch and Router issues
+            > Options for device usage. I.e. Internal or
+              edge routing device *
+            > Added command line option to specify a
+              device name. It helps for configs where
+              the name is not specified in the config. *
+            > Much better documentation.
+            > Much improved report introduction.
+
+         IOS-based Device Security Audit:
+            > Logging *
+            > RIP *
+            > IOS Versions *
+            > SNMP *
+            > uRPF *
+            > Classless Routing *
+            > TCP Keep Alives *
+            > Name Lookups *
+            > Telnet *
+            > SSH Protocol Version *
+            > Minimum Password Length *
+            > EIGRP Authentication *
+            > Switch Port Security *
+            > Switch Port Trunking *
+            > Proxy ARP
+            > ACL
+            > VRRP Authentication *
+            > BGP Route Dampening
+
+         IOS-based Device Configuration Reports:
+            > Switchport VLAN *
+            > Switchport Security *
+            > CEF *
+            > uRPF *
+            > Logging
+            > SNMP
+            > Classless Routing *
+            > TCP Keep alives *
+            > DNS *
+            > Line Configuration
+            > SSH
+            > FTP
+            > ACL
+            > Gratuitous ARP *
+            > NAT (All types) *
+            > RIP
+            > Clock and TimeZones *
+            > Minimum Password Length (IOS 12.3(1)+) *
+            > VTP Mode and Domain *
+            > Named ACL *
+            > VRRP *
+
+         CSS-based Device Security Audit: *
+            > Telnet *
+            > SNMP *
+            > ACL *
+
+         CSS-based Device Configuration Reports: *
+            > General Settings *
+            > Services *
+            > SNMP *
+            > ACL *
+
+         PIX-based Device Security Audit:
+            > ACL
+
+         Report Appendix Features:
+            > Logging Message Levels *
+            > Abbreviations
+            > Time Zones *
+
+         In addition to these changes, a number of other
+         less obvious changes have been made.
+            > Command line interface cleanup.
+            > A general update of security-related
+              report issues.
+            > A major rewrite of the internal data
+              structures. Enables future feature
+              enhancements.
+            > Seperation of cleanup routines.
+            > Improvements to config file parsing.
+            > Added text markup to enable device type
+              output in report text.
+            > Added text markup to enable the device
+              software version to be output in the report.
+            > Processing text paragraphs that are broken
+              into seperate character arrays.
+            > Improvements to IOS-based interface name
+              handling.
+            > Report opening improvements.
+            > Report PQR issues.
+
+         Test configuration files have been added to the
+         subversion repository. These configs should not be
+         used on any device, they are for testing only.
+            > Cisco IOS Switch *
+            > Cisco IOS Router (--edge for all issues) *
+            > Cisco CSS *
+
+         A small number of issues identified since the
+         previous release have been fixed.
+            > XML timeout report issue when there is only
+              a single timeout issue.
+            > XML password report issue when there is only
+              a single password issue.
+
+--------------------------------------------------------------
+
+Version: 0.9.5
+Date   : 09/05/2007
+Authors: Ian Ventura-Whiting (Fizz)
+         Mike Auty (thanks for the patches)
+Changes: Fixed   : Getting a banner that starts with !
+         Fixed   : Bug with PIX SSH configuration output
+                   with XML.
+         Fixed   : Minor appendix abbreviation PQR issue.
+
+Version: 0.9.4
+Date   : 29/04/2007
+Authors: Ian Ventura-Whiting (Fizz)
+         Mike Auty (thanks for XML ref update)
+Changes: Improved: XML table reference within report
+                   text.
+         Fixed   : Report text output for when a single
+                   weak password has been identified for
+                   an IOS device.
+         Fixed   : Bug with processing certain types of IOS
+                   enable passwords.
+         Fixed   : A minor error in the IOS report text.
+         Fixed   : Bug processing ASA Firewall interfaces,
+                   Bug 1709061.
+
+Version: 0.9.3
+Date   : 21/04/2007
+Authors: Ian Ventura-Whiting (Fizz)
+         Benjamin Allen (thanks for the patch :-)
+Notes  : Thanks to Mike Auty for the feedback, leading
+         to improvements made in this and previous
+         0.9.x maintenance releases.
+Changes: Improved: XML appendix and configuration
+                   subsection tags.
+         Improved: XML table tag reference.
+         Improved: Added an XML section tag reference.
+         Improved: Dictionary-based password checking using
+                   the small built in dictionary.
+         Improved: A really minor PQR change to the
+                   report text.
+         Improved: Minor tweaks to the on-line help
+                   text.
+         Fixed   : Typo in the report markup language.
+         Fixed   : PIX Access List Segmentation Fault.
+         Fixed   : Bug 1703687, which fixes the handling
+                   of quoted text, specifically with
+                   NetScreen devices.
+
+Version: 0.9.2
+Date   : 11/04/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Improved: XML tags for table captions.
+         Improved: Added XML report text command markup.
+         Improved: Added reference to XML section tag.
+         Fixed   : Typo in the report markup language.
+
+Version: 0.9.1
+Date   : 08/04/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Improved: Added abbreviation to XML output.
+         Fixed   : Some PQR issues with various report text
+                   output.
+
+Version: 0.9.0
+Date   : 23/03/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : The program name has changed from CiscoParse to
+         Nipper (The Network Infrastructure Config Parser).
+         This will better represent what the program now
+         does, and it sounds friendly too :-)
+         Feature : The abbreviations are only expanded on
+                   first use for all file formats.
+         Feature : Added common ports to appendix.
+         Feature : Added command line options to disable
+                   individual appendix sections or the
+                   whole appendix.
+         Feature : When the --no-passwords option is used
+                   it will list which authentication / keys
+                   but will not show the password. Previous
+                   versions just reported that there were
+                   issues with the passwords.
+         Feature : Added option to convert name mappings
+                   back into IP addresses.
+         Feature : Added option to expand ACL.
+         Feature : Added option to configure latex paper
+                   size.
+         Feature : Added option to configure latex document
+                   class.
+         Feature : Added additional support to IOS-based
+                   devices:
+                       > Interfaces with ACL
+                       > Static Routes
+         Feature : Added additional support to PIX-based
+                   devices:
+                       > NAT
+                       > Static Routes
+                       > SSH
+         Feature : Added additional support to NMP-based
+                   devices:
+                       > Permit Lists
+                       > Idle Session Timeout
+                       > VLAN Configuration
+                       > Modules and Ports
+                       > Port Security
+                       > CDP
+         Feature : Added support for Juniper NetScreen
+                   ScreenOS-based devices:
+                       > General Settings
+                       > Admin Settings
+                       > SSH Settings
+                       > Name Mappings
+                       > Interfaces
+                       > Policy Settings
+                       > Authentication Settings
+         Feature : Added compilation/installation methods:
+                       > install.script
+                       > CMake
+         Feature : Added XML report output.
+         Feature : Added debug option to list abbreviations
+                   that were not identified.
+         Improved: Added no issues found text for when there
+                   were no identified issues.
+         Improved: Added report output format shortcut
+                   options.
+         Improved: Added even more abbreviations.
+         Imrpoved: Lots of minor improvements to the report
+                   text and configuration text output.
+         Improved: Complete redesign of the report writing
+                   code to easliy allow for additional
+                   report formats to be added in the
+                   future.
+         Improved: Redesign of the parser to allow for
+                   different configuration file types, such
+                   as those from the NetScreen.
+         Improved: If passwords are disabled, the keys and
+                   authentication that are being refered to
+                   are now listed rather than just not
+                   shown at all.
+         Improved: ICMP PIX Permission Configuration output.
+         Improved: Latex column widths.
+         Improved: Moved CDP configuration to
+                   services section in IOS configuration
+                   output.
+         Improved: Colour console help output.
+         Improved: Added examples to help output.
+         Improved: Errors are now output to the console
+                   in red.
+         Improved: The Bootp report text.
+         Improved: The auxiliary port ease and recommendation
+                   text.
+         Improved: OSPF keys and encryption type in IOS report
+                   output.
+         Improved: Installation notes.
+         Improved: Loads of code and memory optimisations.
+         Fixed   : No longer report IOS IP-based issues for
+                   interfaces that do not have IP addresses
+                   assigned.
+         Fixed   : Some debug mode typos.
+         Fixed   : Object type remark capture for PIX devices.
+         Fixed   : PIX access list remark truncation.
+
+Version: 0.8.8
+Date   : 14/02/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : Inifinite loop in IOS-based q report
+                   output.
+
+Version: 0.8.7
+Date   : 11/02/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : PIX object group description processing.
+         Fixed   : Disabled latex output option, this will
+                   be reintroduced with 0.9.0.
+
+Version: 0.8.6
+Date   : 07/02/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : SNMP segfault when processing specific
+                   IOS configurations.
+
+Version: 0.8.5
+Date   : 05/02/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : Auxiliary connection timeout security
+                   report output.
+
+Version: 0.8.4
+Date   : 05/01/2007
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : Removed duplication from NMP-based weak
+                   password report paragraph.
+         Fixed   : Latex banner in configuration output.
+
+Version: 0.8.3
+Date   : 03/01/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : PQR issues in the ACL report output.
+         Fixed   : PQR issue in the weak passwords output.
+         Fixed   : PQR issue in the dictionary output.
+         Fixed   : PQR issues in the timeout report output.
+         Fixed   : PQR issue in the aux report output.
+         Fixed   : PQR issue in the ICMP unreachable output.
+         Fixed   : PQR issues in Proxy ARP report output.
+         Fixed   : PQR issues in CDP report output.
+         Fixed   : PQR issues in enable secret output.
+         Fixed   : NMP-based weak password impact output.
+
+Version: 0.8.2
+Date   : 20/12/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Improved: PIX ACL Configuration for Latex reports
+                   is now in landscape, so it now fits!
+         Improved: Removed TFTP and Telnet from IOS
+                   configuration / report output. This is
+                   an improvement, honest.
+         Fixed   : PIX Object definition text for Latex
+                   configuration output.
+         Fixed   : Report recommendation text for a single
+                   dictionary-based password.
+         Fixed   : Report text for weak passwords.
+         Fixed   : Report observation text for connection
+                   timeouts.
+         Fixed   : Latex table column widths.
+         Fixed   : Minor report text typos.
+
+Version: 0.8.1
+Date   : 19/12/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : Readme text
+         Fixed   : License text
+         Fixed   : Escaping Latex characters in tables
+         Fixed   : HTML tags in Latex output
+
+Version: 0.8.0
+Date   : 14/12/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Feature : Added to q, HTML and Text device
+                   configuration report output for PIX-
+                   based devices:
+                     > Fixup Protocol Inspection
+                     > ICMP Access Restrictions
+         Feature : Added to q, HTML and Text device
+                   configuration report output for NMP-
+                   based devices:
+                     > ICMP Unreachables
+                     > ICMP Redirects
+                     > IP Fragmentation
+                     > CDP
+         Feature : q, HTML and Text security reports
+                   for Firewall devices:
+                     > Access Control Lists
+         Feature : q, HTML and Text security reports
+                   for NMP devices:
+                     > ICMP Unreachables
+                     > ICMP Redirects
+                     > CDP
+         Feature : Added abbreviations to HTML output
+         Improved: Firewall ACL configuration settings with
+                   general settings.
+         Improved: Added transparent firewall to general
+                   configuration.
+         Improved: The ACL are now split into seperate
+                   tables in the configuration report.
+         Improved: Use the acronyms in the ACL configuration
+                   settings report.
+         Improved: Added logging to firewall extended ACL
+                   configuration output.
+         Improved: Firewall interface configuration output.
+         Fixed   : HTML end-of-document tags.
+         Fixed   : Issue with q configuration output
+                   of firewall ACL.
+
+Version: 0.7.1
+Date   : 11/12/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Feature : Added to q, HTML and Text device
+                   configuration report output for PIX-
+                   based devices:
+                     > IP address name mappings
+                     > Enable Passwords
+                     > Logon Password
+                     > Usernames
+         Improved: PIX Access List Support
+         Improved: Added object definitions introduction.
+         Improved: Added FWSM to Firewall parsing.
+         Fixed   : Error when parsing the wrong kind of
+                   config using the wrong Cisco type.
+
+Version: 0.7.0
+Date   : 29/11/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Feature : q, HTML and Text security reports
+                   for IOS-based devices:
+                     > Banners
+                     > BGP Route Dampening
+                     > OSPF Password Encryption
+                     > Telnet
+         Feature : q, HTML and Text security reports
+                   for NMP-based devices:
+                     > Password Strength
+                     > Dictionary-based Passwords
+         Feature : Added to q, HTML and Text device
+                   configuration report output for IOS-
+                   based devices:
+                     > Banners
+                     > OSPF
+         Feature : Added to q, HTML and Text device
+                   configuration report output for PIX-
+                   based devices:
+                     > General Settings
+                     > Interfaces
+                     > Access Lists
+                     > Object Groups
+         Feature : Added to q, HTML and Text device
+                   configuration report output for NMP-
+                   based devices:
+                     > General Settings
+                     > Passwords
+                     > SNMP
+         Feature : Added support for PIX/ASA configs (<PIX 7)
+         Feature : Added support for NMP configs (catalyst)
+         Improved: Default HTML CSS.
+         Improved: Routing protocol settings introduction
+                   text.
+         Improved: OSPF settings introduction text.
+         Improved: BGP settings introduction text.
+         Improved: Added OSPF to interface debug output.
+         Improved: Changed default output format to HTML.
+         Improved: Fixed Finger default. It is enabled for
+                   IOS ver 11.3+, but disabled for 12.1+.
+         Improved: Defaults for finger, TCP and UDP small
+                   servers.
+         Improved: Added command line to debug output.
+         Fixed   : Detecting interfaces are not configured
+                   with an IP address.
+         Fixed   : IP Directed Broadcast detection for IOS
+                   on a single interface (specific config
+                   required).
+         Fixed   : Potential OSPF segfault that required a
+                   specific configuration.
+         Fixed   : malloc compile warnings on some machines.
+
+
+Version: 0.6.1
+Date   : 29/11/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Fixed   : Clear-text simple enable password retrival
+         Fixed   : Password Encryption Text Security Report
+
+
+Version: 0.6.0
+Date   : 23/11/2006
+Author : Ian Ventura-Whiting (Fizz)
+Notes  : Feature : Password / Key strength testing with
+                   user-definable strength settings.
+         Feature : Password / Key dictionary testing.
+         Feature : Get the Cisco configuration from the
+                   device itself! Old and new methods! :-)
+         Feature : User specified dictionary can be used
+                   to check passwords.
+         Feature : Some report issues maybe enabled by
+                   default on older Cisco versions.
+                   Report issues are now version
+                   aware.
+         Feature : Option to only generate a
+                   configuration-only report.
+         Feature : Options to change the report company
+                   name.
+         Feature : User can specify a CSS to use with the
+                   HTML report.
+         Feature : Timeout settings tested are user-
+                   definable.
+         Feature : Added Text report and configuration
+                   outputs.
+         Feature : q, HTML and Text security reports:
+                     > IP Source Routing
+                     > Finger
+                     > HTTP
+                     > Bootp
+                     > Configuration Auto-Loading
+                     > PAD
+                     > IP Unreachables
+                     > ICMP Mask Reply
+                     > ICMP Redirects
+                     > Directed Broadcasts
+                     > Dictionary-based Passwords
+                     > Weak Passwords
+                     > High / No Timeout
+                     > Auxiliary Port
+                     > MOP
+                     > Access Lists
+                     > Password Encryption
+                     > Enable Secret Passwords
+         Feature : Added to q, HTML and Text device
+                   configuration report output:
+                     > User Accounts & Privilages
+                     > Privilage Levels
+                     > Device Services
+                     > Logging Configuration
+                     > SNMP
+                     > SSH
+                     > NTP
+                     > FTP
+                     > TACACS
+                     > AAA
+                     > Routing
+                          * BGP
+                     > Key Chains and Keys
+                     > Interfaces
+                     > Access Lists
+                     > HTTP
+                     > IP Directed Broadcast
+                     > Lines and description
+         Feature : Added support for the following:
+                     > IP Directed Broadcast
+                     > Lines
+                     > OSPF
+         Improved: Numbers 1 - 14 in report body are
+                   converted to text where applicable.
+         Improved: HTTP support
+         Improved: Code optimization to HTML report output
+         Improved: CDP report paragraph
+         Improved: Minor changes to debug output
+         Improved: Report paragraph sharing between report
+                   output formats.
+         Improved: Table title sharing between report
+                   formats.
+         Improved: Section title sharing between report
+                   formats.
+         Improved: HTML report introduction paragraphs.
+         Fixed   : No longer parses empty configuration files.
+         Fixed   : Made gramatical corrections to CDP text.
+         Fixed   : Routing BGP Latex report typo.
+         Fixed   : SNMP v3 Latex generation bug
+         Fixed   : BGP password capture bug
+         Fixed   : NTP Trusted key default
+         Fixed   : SSH Timeout and Retries report defaults.
+         Fixed   : Memory allocation bug with q reports
+         Fixed   : IOS version detection for report issues.
+         Fixed   : Latex bugs with q output.
+         Fixed   : ProxyARP typo
+
+
+Version: 0.5.0
+Date   : 12/06/2006
+Author : Fizz
+Notes  : Feature : Added / improved support for the
+                   following Cisco configuration options:
+                     > Domain Lookup
+                     > Routing Protocols
+                         * BGP
+                     > Key Chains and Keys (Basic)
+                     > Interface
+                         * RIP configuration
+         Feature : Output report paragraphs in addition to
+                   configuration details for the following:
+                     > CDP
+                     > TCP & UDP Small Servers
+                     > Proxy ARP
+         Feature : Added the following report formats:
+                     > HTML (Basic)
+                     > q
+         Improved: Report paragraph text sharing.
+         Improved: Changed some default settings.
+         Fixed   : CDP in q appendix.
+
+
+Version: 0.4.0
+Date   : 08/06/2006
+Author : Fizz
+Notes  : Feature : Added / improved support for the
+                   following Cisco configuration options:
+                     > SSH
+                     > FTP (Added source interface(s))
+                     > HTTP (basic)
+                     > Access-Lists (improved logging)
+                     > Network boot (check "no boot config" &
+                       "no service config")
+                     > Packet Assembler / Disassembler (PAD)
+                     > Interfaces:
+                         * Proxy ARP
+                         * NTP Disable
+                         * MOP
+                         * IP unreachables
+                         * IP redirects
+                         * IP Mask Reply
+                         * IP Direct Broadcast
+                         * CDP
+                         * Shutdown
+         Improved: Added description paragraph to Access-Lists
+                   q appendix output.
+         Improved: Broke code up into seperate files. The program
+                   was starting to get large and it is easier to
+                   manage as seperate files.
+         Improved: Added TODO file.
+         Fixed   : Bootp, tftp and finger report issue.
+         Fixed   : Issue collecting remark on Access-Lists.
+         Fixed   : Problem with --no-passwords option.
+
+
+Version: 0.3.1
+Date   : 07/06/2006
+Author : Fizz
+Notes  : Only a minor increase in version number, even though
+         there is an additional feature. This is a
+         maintenance release.
+         Feature : Option to disable password output in
+                   reports.
+         Improved: Access-list output is now in landscape
+                   to cope with all the details.
+         Improved: Removed encrypted passwords from the
+                   report (whats the point?)
+         Improved: Changed blank password to <unknown>
+         Fixed   : --output= option.
+         Fixed   : Privilage line order.
+         Fixed   : Latex character _, # and $ output.
+         Fixed   : Latex column widths (Access-list & user
+                   accounts)
+
+
+Version: 0.3.0
+Date   : 06/06/2006
+Author : Fizz
+Notes  : * Improved the following report output formats:
+             >  q (Appendix)
+                Please note: Currently it does not check for
+                _ and $ ... in the latex. Next version will.
+
+
+Version: 0.2.0
+Date   : 03/06/2006
+Author : Fizz
+Notes  : * Split the program into four distinct sections:
+             1) Program parameter parsing and init
+             2) Parsing the configuration file
+             3) Report format output
+             4) Cleanup
+         * Better type-7 password decoding
+         * Added john-the-ripper output for type-5 passwords
+         * Added program debug output
+         * Added/improved support for the following Cisco
+           configuration items:
+             >  Hostname
+             >  Version
+             >  Enable Password
+             >  Usernames & Passwords
+             >  Privilages
+             >  IP Source Routing
+             >  TCP Small Servers (Check syntax)
+             >  UDP Small Servers (Check syntax)
+             >  Finger
+             >  CDP
+             >  NTP
+             >  SNMP (Full SNMP v1 & v2, partial v3)
+             >  FTP (basic)
+             >  Access Lists (most)
+             >  Telnet (basic)
+             >  TFTP (basic)
+             >  Service Password Encryption
+             >  Logging (most)
+             >  Bootp (basic)
+             >  TACACS (key & servers)
+             >  AAA (Authentication, Authorization, Accounting)
+                    (Radius servers & keys)
+         * Added the following report output formats:
+             >  q (basic)
+
+
+Version: 0.1
+Date   : 22/05/2006
+Author : Fizz
+Notes  : Initial version

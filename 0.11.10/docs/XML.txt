@@ -1,0 +1,448 @@
+nipper XML Output Documentation
+===============================
+
+This document describes the XML output format that nipper produces.
+
+
+Abbreviation
+------------
+
+   Tag        : <abbrev expand="" long="" short="" />
+   Tag Data   : expand (enum) - Should the abbreviation be expanded
+                   "true" or "false"
+                long (string) - the expanded abbreviation
+                short (string) - the abbreviation
+   Description: Used to describe an abbreviation used within the text.
+   Example    : <abbrev expand="true" long="Internet Protocol" short="IP" />
+   History    : Introduced with nipper 0.9.1.
+
+
+Caption
+-------
+
+   Start Tag  : <caption>
+   End Tag    : </caption>
+   Description: A caption is used to specify a table caption.
+   Example    : <table number="1" ref="TABLEREF1">
+                  <caption>A table full of data</caption>
+                  <tableheadings>
+                    <tableheading>Column 1 Heading</tableheading>
+                    <tableheading>Column 2 Heading</tableheading>
+                  </tableheadings>
+                  <tablebody>
+                    <tablerow>
+                      <tableentry>Column 1 Row 1 Data</tableentry>
+                      <tableentry>Column 2 Row 1 Data</tableentry>
+                    </tablerow>
+                    <tablerow>
+                      <tableentry>Column 1 Row 2 Data</tableentry>
+                      <tableentry>Column 2 Row 2 Data</tableentry>
+                    </tablerow>
+                  </tablebody>
+                </table>
+   History    : Introduced with nipper 0.9.2.
+   See Also   : Table, Table Headings, Table Heading, Table Body,
+                Table Row, Table Entry, Reference.
+
+
+Command
+-------
+
+   Start Tag  : <command>
+   End Tag    : </command>
+   Description: Used to describe a device command.
+   Example    : <text><command>ip name-server <cmdoption>IP address</cmdoption></command></text>
+   History    : Introduced with nipper 0.9.2.
+   See Also   : Text, Command Option.
+
+
+Command Option
+--------------
+
+   Start Tag  : <cmdoption>
+   End Tag    : </cmdoption>
+   Description: Used to describe a device command option.
+   Example    : <text><command>ip name-server <cmdoption>IP address</cmdoption></command></text>
+   History    : Introduced with nipper 0.10.3.
+   See Also   : Text, Command.
+
+
+Document
+--------
+
+   Start Tag  : <document title="" device="">
+   End Tag    : </document>
+   Tag Data   : title (string) - The report title
+                device (string) - The name of the device audited
+   Description: Used to describe the report document.
+   Example    : <document title="Security Audit" device="insecure01">
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Text.
+
+
+Item
+----
+
+   Start Tag  : <item>
+   End Tag    : </item>
+   Description: Used to describe an item in a table cell.
+   Example    : <tableentry><item>Item 1</item><item>Item 2</item></tableentry>
+   History    : Introduced with nipper 0.11.0.
+   See Also   : Caption, Table Headings, Table Heading, Table Body,
+                Table Row, Table Entry, Reference, Table.
+
+
+List
+----
+
+   Start Tag  : <list>
+   End Tag    : </list>
+   Description: List tags are used to create a list and will contain
+                one or more list items.
+   Example    : <list>
+                 <listitem>Item 1</listitem>
+                 <listitem>Item 2</listitem>
+                </list>
+   History    : Introduced with nipper 0.9.0
+   See Also   : List Items
+
+
+List Items
+----------
+
+   Start Tag  : <listitem>
+   End Tag    : </listitem>
+   Description: List items are used within the list tags to specify a
+                list item.
+   Example    : <list>
+                 <listitem>Item 1</listitem>
+                 <listitem>Item 2</listitem>
+                </list>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : List
+
+
+Reference
+---------
+
+   Tag        : <reference name="" />
+   Tag Data   : name (string) - the reference string
+   Description: Used to reference a table within the text. It will match the
+                ref data used within the table tag.
+   Example    : <text>See Table <reference name="TABREF1" /> for more details.</text>
+   History    : Introduced with nipper 0.9.4.
+
+
+Section
+-------
+
+   Start Tag  : <section type="" title="" ref="" rate="">
+   End Tag    : </section>
+   Tag Data   : type (enum) - the report section
+                   "security", "configuration" or "appendix"
+                title (string) - a title for the section
+                ref (string) - a unique section reference
+                rate (enum) - A security rating for a subsection
+                   "low", "lowmed", "med", "medhigh" or "high"
+   Description: The section tag is used to contain a defined
+                part of the report.
+   Example    : <section type="appendix" title="Appendix" ref="APPREF1">
+                  <subsection type="appendix" title="Some Appendix Text" ref="APPREFSUB1">
+                    <text>This is some appendix text.</text>
+                  </subsection>
+                </section>
+   History    : Introduced with nipper 0.9.0.
+                Reference added with 0.9.2 release.
+   See Also   : Subsection
+
+
+Subsection
+----------
+
+   Start Tag  : <subsection type="" title="" ref="">
+   End Tag    : </subsection>
+   Tag Data   : type (enum) - the report section
+                   "security", "configuration", "appendix" or "report"
+                title (string) - a title for the subsection
+                ref (string) - a unique section reference
+   Description: The subsection tag is used to contain a defined
+                subsection of the report.
+   Example    : <section type="appendix" title="Appendix" ref="APPREF1">
+                  <subsection type="appendix" title="Some Appendix Text" ref="APPREFSUB1">
+                    <text>This is some appendix text.</text>
+                  </subsection>
+                </section>
+   History    : Introduced with nipper 0.9.0.
+                Reference added with 0.9.2 release.
+                "report" type added with 0.10.0 release.
+   See Also   : Section
+
+
+Table
+-----
+
+   Start Tag  : <table number="" ref="">
+   End Tag    : </table>
+   Tag Data   : number (int) - the table number
+                ref (string) - a table reference
+   Description: Table is used to describe a table within the XML document
+                and will contain a number of other XML tags. The table tag
+                has two parameters, number and ref.
+   Example    : <table number="1" ref="TABLEREF1">
+                  <caption>A table full of data</caption>
+                  <tableheadings>
+                    <tableheading>Column 1 Heading</tableheading>
+                    <tableheading>Column 2 Heading</tableheading>
+                  </tableheadings>
+                  <tablebody>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 1 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 1 Data</item></tableentry>
+                    </tablerow>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 2 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 2 Data</item></tableentry>
+                    </tablerow>
+                  </tablebody>
+                </table>
+   History    : Introduced with nipper 0.9.0.
+                Table reference was added with nipper 0.9.3.
+   See Also   : Caption, Table Headings, Table Heading, Table Body,
+                Table Row, Table Entry, Reference, Item.
+
+
+Table Body
+----------
+
+   Start Tag  : <tablebody>
+   End Tag    : </tablebody>
+   Description: Table Body contains the content of the table,
+                enclosed in a number of table row tags.
+   Example    : <table number="1" ref="TABLEREF1">
+                  <caption>A table full of data</caption>
+                  <tableheadings>
+                    <tableheading>Column 1 Heading</tableheading>
+                    <tableheading>Column 2 Heading</tableheading>
+                  </tableheadings>
+                  <tablebody>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 1 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 1 Data</item></tableentry>
+                    </tablerow>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 2 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 2 Data</item></tableentry>
+                    </tablerow>
+                  </tablebody>
+                </table>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Table, Caption, Table Headings, Table Heading,
+                Table Row, Table Entry, Reference, Item.
+
+
+Table Entry
+-----------
+
+   Start Tag  : <tableentry>
+   End Tag    : </tableentry>
+   Description: Table entry specifies the content of a table cell.
+   Example    : <table number="1" ref="TABLEREF1">
+                  <caption>A table full of data</caption>
+                  <tableheadings>
+                    <tableheading>Column 1 Heading</tableheading>
+                    <tableheading>Column 2 Heading</tableheading>
+                  </tableheadings>
+                  <tablebody>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 1 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 1 Data</item></tableentry>
+                    </tablerow>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 2 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 2 Data</item></tableentry>
+                    </tablerow>
+                  </tablebody>
+                </table>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Table, Caption, Table Headings, Table Heading,
+                Table Row, Table Body, Reference, Item.
+
+
+Table Heading
+-------------
+
+   Start Tag  : <tableheading>
+   End Tag    : </tableheading>
+   Description: Table Heading is used to specify a table column title.
+   Example    : <table number="1" ref="TABLEREF1">
+                  <caption>A table full of data</caption>
+                  <tableheadings>
+                    <tableheading>Column 1 Heading</tableheading>
+                    <tableheading>Column 2 Heading</tableheading>
+                  </tableheadings>
+                  <tablebody>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 1 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 1 Data</item></tableentry>
+                    </tablerow>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 2 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 2 Data</item></tableentry>
+                    </tablerow>
+                  </tablebody>
+                </table>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Table, Caption, Table Headings, Table Body, Table Row,
+                Table Entry, Reference, Item.
+
+
+Table Headings
+--------------
+
+   Start Tag  : <tableheadings>
+   End Tag    : </tableheadings>
+   Description: Table Headings is used to contain one or more column
+                headings for a table, specified using the tableheading
+                tag.
+   Example    : <table number="1" ref="TABLEREF1">
+                  <caption>A table full of data</caption>
+                  <tableheadings>
+                    <tableheading>Column 1 Heading</tableheading>
+                    <tableheading>Column 2 Heading</tableheading>
+                  </tableheadings>
+                  <tablebody>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 1 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 1 Data</item></tableentry>
+                    </tablerow>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 2 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 2 Data</item></tableentry>
+                    </tablerow>
+                  </tablebody>
+                </table>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Table, Caption, Table Heading, Table Body, Table Row,
+                Table Entry, Reference, Item.
+
+
+Table Row
+---------
+
+   Start Tag  : <tablerow>
+   End Tag    : </tablerow>
+   Description: Table row tags contain a number of table entry tags
+                equivilent to the number of table headings.
+   Example    : <table number="1" ref="TABLEREF1">
+                  <caption>A table full of data</caption>
+                  <tableheadings>
+                    <tableheading>Column 1 Heading</tableheading>
+                    <tableheading>Column 2 Heading</tableheading>
+                  </tableheadings>
+                  <tablebody>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 1 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 1 Data</item></tableentry>
+                    </tablerow>
+                    <tablerow>
+                      <tableentry><item>Column 1 Row 2 Data</item></tableentry>
+                      <tableentry><item>Column 2 Row 2 Data</item></tableentry>
+                    </tablerow>
+                  </tablebody>
+                </table>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Table, Caption, Table Heading, Table Headings,
+                Table Row, Table Entry, Reference, Item.
+
+
+Text
+----
+
+   Start Tag  : <text>
+   End Tag    : </text>
+   Description: Define a paragraph of text content.
+   Example    : <section type="security" title="Security Related Issues" ref="SECREF1">
+                  <subsection type="security" rate="low" title="Classless Routing" ref="ClasslessRouting51">
+                    <textsection type="observation">
+                      <text>Classless routing is...</text>
+                      <text>nipper determined that...</text>
+                    </textsection>
+                    <textsection type="impact" rate="low">
+                      <text>Network traffic...</text>
+                    </textsection>
+                    <textsection type="ease" rate="noease ">
+                      <text></text>
+                    </textsection>
+                    <textsection type="recommendation">
+                      <text>nipper recommends that...</text>
+                    </textsection>
+                  </subsection>
+                </section>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Text Section.
+
+
+Text Section
+------------
+
+   Start Tag  : <textsection type="" rate="">
+   End Tag    : </textsection>
+   Tag Data   : type (enum) - Define a type of text section
+                   "observation", "impact", "ease" or "recommendation"
+                rate (enum) - A rating, based on the type
+                   for "impact" type...
+                      "low", "lowmed", "med", "medhigh" or "high"
+                   for "ease" type...
+                      "noease", "trivial", "moderate" or "difficult"
+   Description: Used to group a section of text and possibly tables.
+   Example    : <section type="security" title="Security Related Issues" ref="SECREF1">
+                  <subsection type="security" rate="low" title="Classless Routing" ref="ClasslessRouting51">
+                    <textsection type="observation">
+                      <text>Classless routing is...</text>
+                      <text>nipper determined that...</text>
+                    </textsection>
+                    <textsection type="impact" rate="low">
+                      <text>Network traffic...</text>
+                    </textsection>
+                    <textsection type="ease" rate="noease ">
+                      <text></text>
+                    </textsection>
+                    <textsection type="recommendation">
+                      <text>nipper recommends that...</text>
+                    </textsection>
+                  </subsection>
+                </section>
+   History    : Introduced with nipper 0.9.0.
+   See Also   : Text.
+
+
+
+/***************************************************************************
+ *   Nipper - The network infrastructure parser                            *
+ *   Copyright (C) 2006 - 2008 by Ian Ventura-Whiting                      *
+ *   fizz@titania.co.uk                                                    *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 3 of the License, or     *
+ *   (at your option) any later version. However, there are a number of    *
+ *   exceptions listed below.                                              *
+ *                                                                         *
+ *   EXCEPTIONS TO THE GPL License:                                        *
+ *      1. This code cannot be used as part of a commercial product. If a  *
+ *         commercial license is required, contact fizz@titania.co.uk for  *
+ *         licensing information.                                          *
+ *      2. Any code that integrates Nipper MUST display the copyright      *
+ *         information below with the programs own copyright information.  *
+ *                                                                         *
+ *         "Nipper Copyright (C) 2006 - 2008 by Ian Ventura-Whiting"       *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program. If not, see <http://www.gnu.org/licenses/>.  *
+ *                                                                         *
+ ***************************************************************************/

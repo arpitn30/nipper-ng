@@ -1,0 +1,172 @@
+.TH nipper.conf "12" "January 2008"
+.SH NAME
+nipper.conf \- Configuration file for Nipper.
+.SH DESCRIPTION
+Nipper can be configured in three different ways. The first is through the command line options, this will override the other two configuration methods. The second is through an external configuration file, which is documented in this help document. Lastly, Nipper will fall back on its built-in default configuration settings. The main nipper.conf file is usually located at /etc/nipper.conf, though an alternative configuration file can be specified as a command line parameter.
+.P
+The configuration settings outlined below are case-insensitive. Furthermore, Options that require a yes/no type answer can also be answered with true/false or on/off. Comment lines start with a # character.
+.SH General Section
+\fBDevice Type\fR
+.br
+This changes the default device type. The choices are; Cisco Router (IOS), Cisco Switch (IOS), Cisco Catalyst (IOS), Cisco Catalyst (NMP), Cisco Catalyst (CatOS), Cisco Firewall (PIX), Cisco Firewall (ASA), Cisco Firewall (FWSM), Cisco Content Services Switch (CSS), Juniper ScreenOS Firewall, Nortel Passport, Checkpoint Firewall-1 or SonicWall SonicOS Firewall
+.P
+\fBModel\fR
+.br
+Specify the device model, this is useful for setting defaults.
+.P
+\fBLocation\fR
+.br
+This tells Nipper where the device is being used. Is it an "Internal" device or an "Edge" device.
+.P
+\fBForce Type\fR
+.br
+This bypasses the Nipper configuration type checks and forces Nipper to treat the configuration file as the device type specified. The choices are; yes or no.
+.SH Report Section
+.P
+\fBCompany Name\fR
+.br
+This changes the company name used throughout the report. The default is to use Nipper.
+.P
+\fBShow Passwords In Report\fR
+.br
+Used to enable or disable the output of passwords (encoded or otherwise) to the report. The options are; yes or no.
+.P
+\fBConvert Names To IP Addresses\fR
+.br
+As it suggests, names are converted to IP addresses in the report output. Options are; yes or no.
+.P
+\fBReport Format\fR
+.br
+This setting changes the default report format, the built-in default is HTML. The options are; HTML, XML, LATEX or TEXT.
+.SH HTML Section
+.P
+\fBStyle Sheet File\fR
+.br
+The name of the HTML stylesheet to be used with the HTML report. If not specified, Nipper will use a built-in stylesheet.
+.SH Latex Section
+.P
+\fBPaper Size\fR
+.br
+The Latex paper size to use, the default is a4paper.
+.P
+\fBDocument Class\fR
+.br
+The Latex document class to use, the default is article.
+.SH Report Sections Section
+.P
+\fBSecurity Audit\fR
+.br
+Output a security audit report section. Options are; on or off.
+.P
+\fBAppendix\fR
+.br
+Output an appendix section in the report. Options are; on or off.
+.P
+\fBAbbreviations\fR
+.br
+Output an abbreviations appendix section in the report. Options are; on or off.
+.P
+\fBCommon Ports\fR
+.br
+Output a common ports appendix section in the report. Options are; on or off.
+.P
+\fBLogging Levels\fR
+.br
+Output a logging levels appendix section in the report. Options are; on or off.
+.P
+\fBTime Zones\fR
+.br
+Output a time zones appendix section in the report. Options are; on or off.
+.P
+\fBNipper Details\fR
+.br
+Output a nipper details appendix section in the report. Options are; on or off.
+.SH Audit Section
+.P
+\fBDictionary File\fR
+.br
+A dictionary file to use with password testing. If not specified a small built-in dictionary is used. The dictionary file must contain one password per line.
+.P
+\fBMinimum Password Length\fR
+.br
+The minimum length that passwords / authentication keys should be. The default is 8 characters.
+.P
+\fBPasswords Must Include Uppercase\fR
+.br
+Passwords / authentication keys must include uppercase characters. Options are; on or off.
+.P
+\fBPasswords Must Include Lowercase\fR
+.br
+Passwords / authentication keys must include lowercase characters. Options are; on or off.
+.P
+\fBPasswords Must Include Lowercase or Uppercase\fR
+.br
+Passwords / authentication keys must include lowercase or uppercase characters. Options are; on or off.
+.P
+\fBPasswords Must Include Numbers\fR
+.br
+Passwords / authentication keys must include numbers. Options are; on or off.
+.P
+\fBPasswords Must Include Special Characters\fR
+.br
+Passwords / authentication keys must include special / punctuation characters. Options are; on or off.
+.P
+\fBCheck For Any Source\fR
+.br
+Firewall filters should not allow access from any source. Options are; on or off.
+.P
+\fBCheck Source Rules Do Not Include Networks\fR
+.br
+Firewall filters should not allow access from a network source. Options are; on or off.
+.P
+\fBCheck For Any Source Service\fR
+.br
+Firewall filters should not allow access from any source port. Options are; on or off.
+.P
+\fBCheck For Any Destination\fR
+.br
+Firewall filters should not allow access to any destination. Options are; on or off.
+.P
+\fBCheck Destination Rules Do Not Include Networks\fR
+.br
+Firewall filters should not allow access to a network destination. Options are; on or off.
+.P
+\fBCheck For Any Destination Service\fR
+.br
+Firewall filters should not allow access to any destination service. Options are; on or off.
+.P
+\fBCheck That All Rules Log\fR
+.br
+All firewall filters should log. Options are; on or off.
+.P
+\fBCheck That All Rules Log\fR
+.br
+No disabled firewall filters should exist. Options are; on or off.
+.P
+\fBCheck Rule Lists End With Deny All And Log\fR
+.br
+All firewall filter lists shoud end with a deny everything and log. Options are; on or off.
+.P
+\fBCheck For Reject Rules\fR
+.br
+No firewall reject rules should exist, these are deny rules that inform the sender. Options are; on or off.
+.P
+\fBCheck For Bypass Rules\fR
+.br
+No firewall bypass rules should exist, these are rules that bypass filtering. Options are; on or off.
+.P
+\fBCheck For Default Rules\fR
+.br
+No firewall default rules should exist, these are rules that default to a ports filtering setting. Options are; on or off.
+.P
+\fBMinimum Timeout (Seconds)\fR
+.br
+The number of seconds that timeouts should be configured for. The default is 600.
+.SH AUTHOR
+Nipper was developed by Ian Ventura-Whiting (Fizz).
+.SH COPYRIGHT
+Copyright \(co 2006-2008 Ian Ventura-Whiting.
+.br
+This is free software.  You may redistribute copies of it under the terms of the GNU General Public License v3 or above <http://www.gnu.org/licenses/gpl.html>. There is NO WARRANTY, to the extent permitted by law.
+.SH SEE ALSO
+nipper(1)

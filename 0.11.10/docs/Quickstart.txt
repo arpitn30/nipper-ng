@@ -1,0 +1,82 @@
+Quick Start Guide
+=================
+
+NOTE: Tutorials are available at http://nipper.titania.co.uk
+
+If you haven't already installed nipper, follow the procedures outlined
+in the INSTALL file.
+
+Before using nipper you will need the configuration of your network
+device saved to a text file. Typically for Cisco devices the
+procedure for obtaining this would be:
+
+  1. Logon to Cisco device
+  2. Enter Enable mode
+  3. Type "show run"
+  4. Capture the output to a file
+  5. Logout
+
+Once you have the configuration file and nipper is installed you are
+ready. nipper does not (currently) automatically detect what type of
+device you are about to perform an audit of, so it must be told.
+
+For a Cisco IOS Switch with a configuration file stored in
+/home/fred/switch.txt and output to an XML file the command would be:
+
+  nipper --ios-switch --input=/home/fred/switch.txt --xml --output=audit.xml
+
+The device types currently supported by nipper are specified using the
+following command line parameters:
+
+    CMD Option      Device Type
+    =================================================
+    --ios-switch    Cisco IOS-based Switch
+    --ios-router    Cisco IOS-based Router (default)
+    --ios-catalyst  Cisco IOS-based Catalyst
+    --pix           Cisco PIX-based Firewall
+    --asa           Cisco ASA-based Firewall
+    --fwsm          Cisco FWSM-based Router
+    --catos         Cisco CatOS-based Catalyst
+    --nmp           Cisco NMP-based Catalyst
+    --css           Cisco Content Services Switch
+    --screenos      Juniper NetScreen Firewall
+    --passport      Nortel Passport Device
+    --sonicos       SonicWall SonicOS Firewall
+    --fw1           CheckPoint Firewall-1 Firewall
+
+The order in which the options are specified is irrelevent. To get a full
+list of options, use the following command:
+
+  nipper --help
+
+
+
+/***************************************************************************
+ *   Nipper - The network infrastructure parser                            *
+ *   Copyright (C) 2006 - 2008 by Ian Ventura-Whiting                      *
+ *   fizz@titania.co.uk                                                    *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 3 of the License, or     *
+ *   (at your option) any later version. However, there are a number of    *
+ *   exceptions listed below.                                              *
+ *                                                                         *
+ *   EXCEPTIONS TO THE GPL License:                                        *
+ *      1. This code cannot be used as part of a commercial product. If a  *
+ *         commercial license is required, contact fizz@titania.co.uk for  *
+ *         licensing information.                                          *
+ *      2. Any code that integrates Nipper MUST display the copyright      *
+ *         information below with the programs own copyright information.  *
+ *                                                                         *
+ *         "Nipper Copyright (C) 2006 - 2008 by Ian Ventura-Whiting"       *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program. If not, see <http://www.gnu.org/licenses/>.  *
+ *                                                                         *
+ ***************************************************************************/

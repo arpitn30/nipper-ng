@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/3/trunk/0.11.10/NMP
+END
+process-cdp.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/0.11.10/NMP/process-cdp.c
+END
+report-general.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report-general.c
+END
+report-snmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report-snmp.c
+END
+cleanup.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/0.11.10/NMP/cleanup.c
+END
+process-general.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3/trunk/0.11.10/NMP/process-general.c
+END
+process-snmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/0.11.10/NMP/process-snmp.c
+END
+report-port.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report-port.c
+END
+process-spantree.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/0.11.10/NMP/process-spantree.c
+END
+report-passwords.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report-passwords.c
+END
+input.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/3/trunk/0.11.10/NMP/input.c
+END
+report-debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report-debug.c
+END
+process-port.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/0.11.10/NMP/process-port.c
+END
+report-permit.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report-permit.c
+END
+report-vlan.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report-vlan.c
+END
+report.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/3/trunk/0.11.10/NMP/report.c
+END
+process-vlan.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/0.11.10/NMP/process-vlan.c
+END
+process-permit.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/0.11.10/NMP/process-permit.c
+END

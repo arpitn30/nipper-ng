@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/device.cpp
+END
+snmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/snmp.h
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/general.h
+END
+dns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/dns.cpp
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/device.h
+END
+filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/filter.cpp
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/administration.cpp
+END
+dns.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/dns.h
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/filter.h
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/administration.h
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/general.cpp
+END
+snmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/snmp.cpp
+END
+administration-report.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/SonicWALL-SonicOS/administration-report.cpp
+END

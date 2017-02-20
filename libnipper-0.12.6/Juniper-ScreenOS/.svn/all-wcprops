@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS
+END
+administration-report.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/administration-report.cpp
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/device.cpp
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/device.h
+END
+banner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/banner.cpp
+END
+banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/banner.h
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/general.cpp
+END
+snmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/snmp.cpp
+END
+authentication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/authentication.cpp
+END
+snmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/snmp.h
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/general.h
+END
+interfaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/interfaces.cpp
+END
+dns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/dns.cpp
+END
+authentication.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/authentication.h
+END
+filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/filter.cpp
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/administration.cpp
+END
+interfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/interfaces.h
+END
+dns.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/dns.h
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/filter.h
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Juniper-ScreenOS/administration.h
+END

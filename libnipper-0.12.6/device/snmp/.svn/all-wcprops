@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp
+END
+snmp-group.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp-group.cpp
+END
+snmp-host.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp-host.cpp
+END
+snmp-user.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp-user.cpp
+END
+snmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp.cpp
+END
+snmp-community.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp-community.cpp
+END
+snmp-misc-issues.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp-misc-issues.cpp
+END
+snmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp.h
+END
+snmp-traps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp-traps.cpp
+END
+snmp-view.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/snmp/snmp-view.cpp
+END

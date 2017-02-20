@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/crypto
+END
+crypto-ciscotype7.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/crypto/crypto-ciscotype7.cpp
+END
+crypto-url.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/crypto/crypto-url.cpp
+END
+crypto-base64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/device/crypto/crypto-base64.cpp
+END

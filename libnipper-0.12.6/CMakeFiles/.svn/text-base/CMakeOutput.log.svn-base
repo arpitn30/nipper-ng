@@ -1,0 +1,21 @@
+The system is: Linux - 2.6.18-8.1.15.el5 - i686
+Determining if the C++ compiler is GNU succeeded with the following output:
+# 1 "/usr/share/cmake/Modules/CMakeTestGNU.c"
+# 1 "<built-in>"
+# 1 "<command line>"
+# 1 "/usr/share/cmake/Modules/CMakeTestGNU.c"
+
+void THIS_IS_GNU();
+
+Determining if the CXX compiler works passed with the following output:
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/dbryan/libnipper-0.12.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/dbryan/libnipper-0.12.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.o
+/usr/bin/c++    -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.o -c /home/dbryan/libnipper-0.12.6/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -P CMakeFiles/cmTryCompileExec.dir/cmake_clean_target.cmake
+/usr/bin/c++         -fPIC "CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.o"   -o cmTryCompileExec -rdynamic 
+gmake[1]: Leaving directory `/home/dbryan/libnipper-0.12.6/CMakeFiles/CMakeTmp'
+
+

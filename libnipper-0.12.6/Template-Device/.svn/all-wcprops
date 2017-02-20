@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/device.h
+END
+banner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/banner.cpp
+END
+banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/banner.h
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/general.cpp
+END
+snmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/snmp.cpp
+END
+authentication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/authentication.cpp
+END
+snmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/snmp.h
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/general.h
+END
+interfaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/interfaces.cpp
+END
+dns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/dns.cpp
+END
+authentication.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/authentication.h
+END
+filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/filter.cpp
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/administration.cpp
+END
+interfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/interfaces.h
+END
+dns.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/dns.h
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/administration.h
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/filter.h
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Template-Device/device.cpp
+END

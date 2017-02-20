@@ -1,0 +1,20 @@
+
+        _                           ____
+  _ __ (_)_ __  _ __   ___ _ __    / ->/|
+ | '_ \| | '_ \| '_ \ / _ \ '__|  /<-_/ |
+ | | | | | |_) | |_) |  __/ |     |   | /
+ |_| |_|_| .__/| .__/ \___|_|     |___|/
+         |_|   |_|
+
+    The Network Infrastructure Parser
+
+This document is a TODO list of features and functionality to be added to
+the next feature release of nipper. This list should not be seen as definative
+and will expand and contract over time. If you have feature requests, please
+add them to the sourceforge project page. Additionally, any bugs and patches
+should also be added to the sourceforge project page.
+
+
+Its all in the 0.12.x release TODO list now.
+
+Fizz

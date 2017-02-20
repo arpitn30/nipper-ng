@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/administration.cpp
+END
+interfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/interfaces.h
+END
+dns.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/dns.h
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/administration.h
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/device.cpp
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/device.h
+END
+banner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/banner.cpp
+END
+banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/banner.h
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/general.cpp
+END
+snmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/snmp.cpp
+END
+authentication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/authentication.cpp
+END
+snmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/snmp.h
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/general.h
+END
+interfaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/interfaces.cpp
+END
+dns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/dns.cpp
+END
+authentication.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Catalyst/authentication.h
+END

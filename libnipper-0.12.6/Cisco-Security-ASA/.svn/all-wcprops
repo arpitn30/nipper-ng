@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-ASA
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-ASA/administration.h
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-ASA/general.cpp
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-ASA/device.cpp
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-ASA/general.h
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-ASA/device.h
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-Security-ASA/administration.cpp
+END

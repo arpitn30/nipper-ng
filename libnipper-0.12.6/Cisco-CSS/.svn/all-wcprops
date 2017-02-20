@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS
+END
+interfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/interfaces.h
+END
+dns.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/dns.h
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/filter.h
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/administration.h
+END
+device.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/device.cpp
+END
+device.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/device.h
+END
+banner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/banner.cpp
+END
+banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/banner.h
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/general.cpp
+END
+snmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/snmp.cpp
+END
+authentication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/authentication.cpp
+END
+snmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/snmp.h
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/general.h
+END
+interfaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/interfaces.cpp
+END
+dns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/dns.cpp
+END
+authentication.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/authentication.h
+END
+filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/filter.cpp
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/administration.cpp
+END
+snmp-report.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-CSS/snmp-report.cpp
+END

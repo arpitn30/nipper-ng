@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS
+END
+snmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/snmp.h
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/general.h
+END
+interfaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/interfaces.cpp
+END
+dns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/dns.cpp
+END
+authentication.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/authentication.h
+END
+filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/filter.cpp
+END
+administration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/administration.cpp
+END
+snmp-report.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/snmp-report.cpp
+END
+interfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/interfaces.h
+END
+dns.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/dns.h
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/filter.h
+END
+administration.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/administration.h
+END
+administration-security.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/administration-security.cpp
+END
+administration-report.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/administration-report.cpp
+END
+banner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/banner.cpp
+END
+iosdevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/iosdevice.cpp
+END
+banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/banner.h
+END
+administration-line.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/administration-line.cpp
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/general.cpp
+END
+snmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/snmp.cpp
+END
+iosdevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/iosdevice.h
+END
+authentication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/libnipper-0.12.6/Cisco-IOS/authentication.cpp
+END

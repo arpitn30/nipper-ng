@@ -1,0 +1,67 @@
+TODO List
+=========
+
+For 0.14
+--------
+  ! References...
+
+  ! Executive summary at the start of the report?
+  ! Export the recommendation table to a CSV (code this at the same time as the ACL CSV)
+
+  ! CheckPoint device name detection (use Installed column/then policy name/then noname)
+
+  ! Seperate issues for ICMP and other protocols.
+
+  ! Add RFC references to the common network ports appendix section
+
+  ! Update the banner code after console, http, telnet, ssh and so on have been added
+  ! Update ProCurve IPv6 Telnet code after interfaces have been collected
+  ! Add ProCurve model detection, based on the version/model no.
+  ! IOS Administration
+      > Line Passwords (add to authentication section)
+      > TACACS (add to authentication section)
+      > TFTP
+  ! Passport SNMP
+  ! Passport Administration
+  ! Check cipher support for IOS, CSS, CatOS and HP devices
+ 
+  ! Method to display available compliance checks
+  ! XML compliance check input file
+  ! Compliance issues should report what they check, the input and output.
+  ! Compliance issues should also list whether the issue is compliant if it matches or if it doesn't
+
+  * GUI Interface program (nipperGUI)
+  * Config (load config file to memory, process then free memory)
+  * SNMP code to get Cisco configs remotely.
+  * Absolute ACL for each interface/VLAN
+  * Internationalisation
+  * Obfuscation of IP addresses (e.g. a.b.x.x)
+  * Configuration / Security Issues (improvements)
+       > Protocol/traffic analysis
+       > VPN configuration
+       > Appendix section includes a copy of the original config
+       > Compare passwords for different levels (i.e. Login and Enable passwords should not match)
+       > Wireless configuration
+       > Report section on the ports/protocols allowed.
+       > Protocols analysis, depending on network filtering 
+       > Security issue - shared passwords
+  * Report writing code
+       > Latex Improvements
+       > ODF Support
+       > PDF Support
+       > SQL Support
+  * Compliancy Checking
+  * Difference configuration files
+  * Auditor configuration (output config settings to appendix)
+  * Support for new devices
+      > 3Com SuperStack
+      > Watchguard Firebox
+      > Fortinet FortiGate
+      > Nortel Alteon
+      > Nortel Baystack
+      > Foundry Switches
+      > Entrasys Matrix
+      > Entrasys SecureStack
+      > Cyberguard
+      > IPTables
+      > Quagga (.net) / Zebra

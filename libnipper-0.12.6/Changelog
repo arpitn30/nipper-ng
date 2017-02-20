@@ -1,0 +1,265 @@
+Changelog
+=========
+
+Version: 0.12.6
+Date   : 30/12/2008
+Author : Ian Ventura-Whiting
+Thanks : David Bryan
+Changes: The following nipper features have been added or
+         improved with this release. A * represents a new
+         feature.
+            > Fixed IOS password capture issue.
+            > Fixed seg fault when processing specific
+              filter configuration (all devices).
+
+
+Version: 0.12.5
+Date   : 14/12/2008
+Author : Ian Ventura-Whiting
+Thanks : Sam
+         Patrick Harbauer
+Changes: The following nipper features have been added or
+         improved with this release. A * represents a new
+         feature.
+
+         General:
+            > Fixed issue HTTP/HTTPS administrative hosts.
+            > Fixed PQR issue with contradict and duplicate
+              issues.
+            > Improved text report layout.
+            > Fixed IOS Exec Banner command recommendation.
+            > Fixed IOS CDP issue.
+            > Fixed Specific IOS Filter Processing Issue.
+
+
+Version: 0.12.4
+Date   : 06/11/2008
+Author : Ian Ventura-Whiting
+Changes: The following nipper features have been added or
+         improved with this release. A * represents a new
+         feature.
+
+         General:
+            > Fixed PQR issue with filtering finding text.
+            > Updated example code in the libnipper SDK.
+            > XML tag fixes (Re 31)
+
+
+Version: 0.12.3
+Date   : 01/11/2008
+Author : Ian Ventura-Whiting
+Changes: The following nipper features have been added or
+         improved with this release. A * represents a new
+         feature.
+
+         General:
+            > Fixed Console timeout issue
+            > Fixed ACL of no type issue (Re 27)
+            > Fixed XML tags within XML tags (Re 31)
+
+         Cisco Security Appliances:
+            > Fixed Timeout issue
+
+
+Version: 0.12.2
+Date   : 11/10/2008
+Author : Ian Ventura-Whiting
+Changes: The following nipper features have been added or
+         improved with this release. A * represents a new
+         feature.
+
+         General:
+            > Fixed PQR issue with encryption text.
+
+         Cisco IOS Catalysts:
+            > Fixed IOS Clear Text Issue Reporting
+            > Fixed pickup of Port Security on interfaces.
+
+
+Version: 0.12.1
+Date   : 05/09/2008
+Author : Ian Ventura-Whiting
+Changes: The following nipper features have been added or
+         improved with this release. A * represents a new
+         feature.
+
+         General:
+            > Fixed issue with CSS with user required input.
+            > Fixed a memory leak with duplicate/contradict
+              filter issues.
+            > Compiler flags updated to resolve a Windows
+              build issue.
+            > Fixed an issue with duplicates and comment lines.
+
+         Juniper NetScreen:
+            > Fixed PQR issue with dictionary password
+              recommendation.
+
+         Cisco IOS Catalysts:
+            > Improved auto-detection.
+
+         CheckPoint (and compatible):
+            > Fixed issue with services not matching properly
+              with contradicting/duplicate rules.
+            > Fixed reporting issues with service groups.
+            > Fixed reporting issues with host groups.
+
+
+Version: 0.12.0
+Date   : 17/08/2008
+Author : Ian Ventura-Whiting
+Notes  : This is the first release of Nipper as a library.
+Thanks : A big thanks must go to:
+           Portcullis Computer Security (www.portcullis.co.uk)
+           Hewlett-Packard ProCurve     (www.procurve.com)
+           Juniper                      (www.juniper.net)
+           Fortinet                     (www.fortinet.com)
+License: Nipper library and program is covered by the GPL 3 or
+         higher. However, there are two exceptions.
+         1. The code cannot be used as part of a commercial
+         product. If this is required email fizz@titania.co.uk
+         2. Any code that makes use of this library MUST
+         display the returned text of the Nipper::getVersion()
+         method.
+Changes: The following nipper features have been added or
+         improved with this release. A * represents a new
+         feature.
+
+         General Library Features:
+            > Nipper library. *
+            > Translated to C++. *
+            > Added support for:
+                 + HP ProCurve Devices *
+                 + 3Com SuperStack 3 Firewall *
+                 + Nokia IP (now has an option) *
+                 + CheckPoint (management/firewall) *
+                 + Bay Networks Accelar (option added) *
+                 + Nortel Ethernet Routing Switch 8300 *
+            > Added "index of tables" to report output. *
+            > Added "related security issues" to the
+              security report output. *
+            > Added security issue ratings. *
+            > Added security report recommendations. *
+            > Added internationalisation support. *
+            > Added IP protocols appendix section. *
+            > Added ICMP Types appendix section. *
+            > Added logon banner content analysis. *
+            > Added security issue ordering options. *
+            > Added configuration device type auto
+              detection. *
+            > Improved Nipper Framework.
+            > Improved HTML report format tagging.
+            > Improved Builtin HTML stylesheet.
+            > Improved Latex support.
+            > Improved abbreviation support.
+            > Improved common port list support.
+            > Improved logging severity levels section.
+            > Improved dictionary password checking.
+            > Improved Debug output.
+            > Improved security report introduction.
+            > Improved security report conclusions.
+            > Improved password complexity checking.
+            > Improved filtering checking.
+            > Improved SNMP checking.
+            > Improved Administration service checking.
+
+         Nortel Passport (and compatible):
+            > Added module support. *
+            > Added banner support. *
+            > Added motd support. *
+            > Added SNMP support. *
+            > Added Interface support. *
+            > Improved filter support.
+
+         HP ProCurve:
+            > Added hostname. *
+            > Added version, model support. *
+            > Added SNMP support. *
+            > Added SNMPv3 support. *
+            > Added module support. *
+            > Added console support. *
+            > Added banner support. *
+            > Added SSH support. *
+            > Added Telnet support. *
+            > Added TFTP support. *
+            > Added Management Host support. *
+            > Added Web Management support. *
+            > Added DNS support. *
+            > Added Authentication support. *
+            > Added VLAN interface support. *
+
+         Juniper NetScreen:
+            > Added predfined service object
+              support. *
+            > Added DNS support. *
+            > Improved Hostname detection.
+            > Improved SNMP support.
+            > Improved Banner support.
+            > Improved Administration support.
+            > Improved Policy support.
+            > Improved Address Book support.
+            > Improved Authentication support.
+            > Improved Interface support.
+
+         Cisco Content Services Switch:
+            > Added Banner support. *
+            > Added Connection Timeouts. *
+            > Added Core Dumps. *
+            > Added DNS support. *
+            > Added Authentication support. *
+            > Added Circuit support. *
+            > Added Interface support. *
+            > Improved hostname detection.
+            > Improved administration services.
+            > Improved SNMP support.
+            > Improved ACL support.
+
+         Cisco Routers and IOS Catalyst:
+            > Added Rlogin support. *
+            > Improved line support.
+            > Improved SNMP support.
+            > Improved Banner support.
+            > Improved ACL support.
+            > Improved Telnet support.
+            > Improved SSH support.
+            > Improved HTTP support.
+            > Improved Finger support.
+            > Improved BOOTP support.
+            > Improved DNS support.
+            > Improved Authentication support.
+            > Improved Interface support.
+
+         Cisco Catalyst (NMP/CatOS):
+            > Added Banner support. *
+            > Added DNS support. *
+            > Improved SNMP support.
+            > Improved Authentication support.
+
+         Cisco Security Appliances:
+            > Added Ciphers support. *
+            > Improved SNMP support.
+            > Improved Banner support.
+            > Improved HTTP(S) support.
+            > Improved SSH support.
+            > Improved ACL support.
+            > Improved Object support.
+            > Improved Authentication support.
+            > Improved Interface support.
+
+         SonicWALL Firewalls (and compatible):
+            > Added service groups support. *
+            > Added SNMP support. *
+            > Added Administration support. *
+            > Added DNS support. *
+            > Improved Policy support.
+            > Improved Service support.
+
+         CheckPoint (and compatible):
+            > Improved object support.
+            > Improved service support.
+            > Improved rule support.
+
+
+NOTE:
+Changelog for all previous versions are included with the
+last of the Nipper 0.11.x series archives.
